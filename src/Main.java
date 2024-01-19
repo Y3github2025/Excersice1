@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter date(yyyy-dd-mm): ");
+        System.out.print("Enter date(yyyy-dd-mm): ");
         String Shortdata = scanner.nextLine();
         int year = Integer.parseInt(Shortdata.substring(0,4));
         int month = Integer.parseInt(Shortdata.substring(5,7));
